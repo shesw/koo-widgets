@@ -65,10 +65,10 @@ Component({
         return;
       }
 
-      // if (this.properties.palette.path) {
-      //   const Card = require(`../..${this.properties.palette.path}`);
-      //   this.properties.palette = new Card().palette(this.properties.palette.data);
-      // }
+      if (this.properties.palette.path) {
+        const Card = require(`../..${this.properties.palette.path}`);
+        this.properties.palette = new Card().palette(this.properties.palette.data);
+      }
 
       if (!(getApp().systemInfo && getApp().systemInfo.screenWidth)) {
         try {

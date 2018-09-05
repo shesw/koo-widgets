@@ -1,7 +1,7 @@
 {
 	"name": "koo-widgets",
-	"version": "0.0.0",
-	"description": "miniprogram: generate pictures by json file",
+	"version": "0.0.1",
+	"description": "miniprogram fantastic components",
 	"main": "miniprogram_dist/index.js",
 	"scripts": {
 		"dev": "gulp dev --develop",
