@@ -1,3 +1,0 @@
-<view class="container">
-  <button bindtap="onTap">点击跳转</button>
-</view>
